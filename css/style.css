@@ -167,3 +167,7 @@ text {
   background: #4CAF50;
   cursor: pointer;
 }
+#source{
+  clear:both;
+  display:block;
+}
