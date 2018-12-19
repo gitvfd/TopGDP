@@ -1,0 +1,169 @@
+
+
+.titles, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+
+body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+
+h1{
+  margin-left:1%;
+  color:#555;
+}
+
+.x-axis path, .y-axis path {
+  display: none;
+}
+.rank-line {
+  fill: none;
+  stroke: black;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.start-dot, .end-dot {
+  fill: grey;
+}
+
+.tooltip text {
+  font-size: 14px;
+  font-weight: 700;
+  fill: black;
+}
+
+.x-axis text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.y-axis text {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff; 
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.y-label {
+  fill: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.voronoi path {
+  fill: none;
+  pointer-events: all;
+}
+
+.grid-line {
+  stroke: black;
+  opacity: 0.2;
+  stroke-dasharray: 2,2;
+}
+
+.end-label {
+  font-size: 14px;
+  font-weight: 700;
+  fill: black;
+  fill-opacity: 0.7;
+  /*text-anchor: middle; */
+}
+
+
+.rectKey{
+  fill:#848484;
+  border:none;
+}
+    
+
+#keyTitle{
+  padding-left:3%;
+  font-size: 11px;
+  width:50%;
+  clear:both;
+  float:left;
+}
+#WidthkeyTitle{
+  padding-left:2.5%;
+  font-size: 11px;
+  width:50%;
+  float:left;
+}
+
+#key{
+  width:50%;
+  clear:both;
+  float:left;
+}
+#Widthkey{
+  width:50%;
+  float:left;
+}
+
+#buttonWrapper{
+  margin-left:5%;
+}
+
+#indicator{
+  display: inline;
+  margin-left:5%;
+  font-size: 20px;
+  font-weight:300;
+  color: #848484;
+}
+#titleTop{
+  
+  display: inline;
+  margin-left:5%;
+
+}
+#topSel{
+  
+  display: inline;
+  margin-left:5%;
+  font-size: 20px;
+  font-weight:300;
+  color: #848484;
+}
+
+.slidecontainer{width:40%;float: left;
+  margin-left:5%;
+  font-weight:300;
+  color: #848484;
+}
+.slider {
+  display:inline;
+  -webkit-appearance: none;
+  /**width: 50%;
+  height: 15px;**/
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
